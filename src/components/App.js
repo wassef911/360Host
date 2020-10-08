@@ -1,14 +1,26 @@
 import React from "react";
-import Panorama from "./Panorama";
-import Button from "@material-ui/core/Button";
+import { Switch, Route } from "react-router-dom";
+
+import Spinner from "./Spinner";
+import ErrorBoundary from "./ErrorBoundary";
+import Home from "../pages/Home";
+import Galerie from "../pages/Galerie";
+import About from "../pages/About";
+
+import "./App.style.scss";
 
 function App() {
   return (
     <div className="App">
-      <Button variant="contained" color="primary">
-        Hello World
-      </Button>
-      <Panorama />
+      <React.Suspense fallback={<Spinner />}>
+        <ErrorBoundary>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/galerie" component={Galerie} />
+            <Route exact path="/about" component={About} />
+          </Switch>
+        </ErrorBoundary>
+      </React.Suspense>
     </div>
   );
 }
