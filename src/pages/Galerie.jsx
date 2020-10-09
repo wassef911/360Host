@@ -1,7 +1,12 @@
 import React from "react";
+import UploadSection from "../components/UploadSection";
 
-function Galerie() {
-  return <div>Galerie page.</div>;
+function Galerie({ match }) {
+  return (
+    <React.Fragment>
+      <UploadSection />
+    </React.Fragment>
+  );
 }
 
 export default Galerie;

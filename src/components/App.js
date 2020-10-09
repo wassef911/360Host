@@ -16,7 +16,7 @@ function App() {
         <ErrorBoundary>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/galerie" component={Galerie} />
+            <Route exact path="/:userId" component={Galerie} />
             <Route exact path="/about" component={About} />
           </Switch>
         </ErrorBoundary>

@@ -5,7 +5,7 @@ const theme = createMuiTheme({
     primary: {
       main: "#f57c00",
     },
-    accent: {
+    secondary: {
       main: "#00838f",
     },
     type: "dark",
