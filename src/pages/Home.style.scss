@@ -39,12 +39,13 @@
       padding-left: 3em;
       padding-right: 3em;
       border-radius: 20px;
-      box-shadow: 0px 0px 10px $accent;
-      text-shadow: 0px 0px 10px $accent;
+      box-shadow: 0px 0px 8px $primary;
+      text-shadow: 0px 0px 10px $glow;
       transition-duration: all 300ms;
       transition-timing-function: ease-in-out;
       &:hover {
         transform: scale(1.1);
+        box-shadow: 0px 0px 12px $primary;
       }
     }
   }
