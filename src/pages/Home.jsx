@@ -5,7 +5,7 @@ import LoginButton from "../components/LoginButton";
 
 function Home() {
   return (
-    <div className="Home animate__animated ">
+    <div className="Home">
       <div>
         <h1>360 HOST</h1>
         <h3>Host your galerie and share it.</h3>

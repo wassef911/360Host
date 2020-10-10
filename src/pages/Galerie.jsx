@@ -1,11 +1,14 @@
 import React from "react";
+
 import UploadSection from "../components/UploadSection";
 
-function Galerie({ match }) {
+import "./Galerie.style.scss";
+
+function Galerie() {
   return (
-    <React.Fragment>
+    <div className="Galerie">
       <UploadSection />
-    </React.Fragment>
+    </div>
   );
 }
 
