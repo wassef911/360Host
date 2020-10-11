@@ -1,7 +1,6 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
-import Fab from "@material-ui/core/Fab";
-import AddIcon from "@material-ui/icons/Add";
+
 
 import "./UploadSection.scss";
 import DragAndDrop from "./DragAndDrop";

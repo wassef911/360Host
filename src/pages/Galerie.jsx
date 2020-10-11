@@ -1,4 +1,5 @@
 import React from "react";
+import Showcase from "../components/Showcase";
 
 import UploadSection from "../components/UploadSection";
 
@@ -8,6 +9,7 @@ function Galerie() {
   return (
     <div className="Galerie">
       <UploadSection />
+      <Showcase/>
     </div>
   );
 }
