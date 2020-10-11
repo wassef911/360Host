@@ -17,7 +17,8 @@
     "react-scripts": "3.4.3",
     "react-spinkit": "^3.0.0",
     "redux": "^4.0.5",
-    "schema-utils": "^2.7.1"
+    "schema-utils": "^2.7.1",
+    "timeago-react": "^3.0.1"
   },
   "scripts": {
     "dev": "react-scripts start",
